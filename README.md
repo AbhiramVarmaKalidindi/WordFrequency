@@ -1,12 +1,14 @@
 # WordFrequency
 
 ## Goal
-Code to return word frequencies while taking punctuation at the end of the word into consideration.
+Code to return word frequencies while eliminating all punctuations at the end of the word.
 
 ## Extra Features
--> Creating a wordcloud (Again, while takin punctuation into consideration\
--> Print frequencies (dict) in a redable format\
+-> Creating a wordcloud (Again, while eliminating punctuations
+-> Print frequencies (dict) in a redable format
 
 ## Understanding Functions
-### __init__
+### \__init\__
 Constructor with 2 arguments\
+  file_name: Name of the text file. Default is "text.txt"\
+  punc: String conrtaining all the punctuations (or other charecters) to be eliminated while counting frequencies (Note: No changes will be made to the text file). Default is ".,;:\"\'-_1234567890"\
