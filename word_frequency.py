@@ -140,12 +140,6 @@ class frequency():
         plt.tight_layout(pad = 0) 
   
         plt.show() 
-        
-text1=frequency()
-text1.count()
-res=text1.top_words(num=10)
-text1.pretty(res)
-text1.word_cloud()
 
 
 
