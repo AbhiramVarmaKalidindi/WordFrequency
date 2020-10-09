@@ -9,20 +9,20 @@ Code to return word frequencies while eliminating all punctuations at the end of
 
 ## Understanding Functions
 ### \_\_init\_\_
-Description: Constructor with 2 arguments\
+-Description: Constructor with 2 arguments\
 \
-Parameters:\
+-Parameters:\
 **file_name**: Name of the text file. Default is "text.txt"\
 **punc**: String conrtaining all the punctuations (or other charecters) to be eliminated while counting frequencies (**Note**: No changes will be made to the text file). Default is ".,;:\"\'-_1234567890"\
 \
-Returns: None
+-Returns: None
 
 ### count
-Description: Conunts frequencies of words irrespective of upper or lower case while eliminating all punctuations (from punc) at the end of each word and stores it in a dictionary\
+-Description: Conunts frequencies of words irrespective of upper or lower case while eliminating all punctuations (from punc) at the end of each word and stores it in a dictionary\
 \
-Parameters: None\
+-Parameters: None\
 \
-Returns: Dictionary of all word frequencies
+-Returns: Dictionary of all word frequencies
 
 ### top_words
 Description: Returns top n number of words, including ties\
